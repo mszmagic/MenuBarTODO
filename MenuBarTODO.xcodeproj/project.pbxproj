@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAC236A625BA6D3200F5EE40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC236A525BA6D3200F5EE40 /* AppDelegate.swift */; };
+		DAC236A825BA6D3200F5EE40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC236A725BA6D3200F5EE40 /* ContentView.swift */; };
+		DAC236AB25BA6D3200F5EE40 /* MenuBarTODO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAC236A925BA6D3200F5EE40 /* MenuBarTODO.xcdatamodeld */; };
+		DAC236AD25BA6D3200F5EE40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC236AC25BA6D3200F5EE40 /* Assets.xcassets */; };
+		DAC236B025BA6D3200F5EE40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC236AF25BA6D3200F5EE40 /* Preview Assets.xcassets */; };
+		DAC236B325BA6D3200F5EE40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC236B125BA6D3200F5EE40 /* Main.storyboard */; };
+		DAC236BF25BA716D00F5EE40 /* StorageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC236BE25BA716D00F5EE40 /* StorageHelper.swift */; };
+		DAC236C425BA71C500F5EE40 /* TODOItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC236C225BA71C500F5EE40 /* TODOItem+CoreDataClass.swift */; };
+		DAC236C525BA71C500F5EE40 /* TODOItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC236C325BA71C500F5EE40 /* TODOItem+CoreDataProperties.swift */; };
+		DAD42B9D25BA8A0700066278 /* demoImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD42B9C25BA8A0700066278 /* demoImage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DAC236A225BA6D3200F5EE40 /* MenuBarTODO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuBarTODO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC236A525BA6D3200F5EE40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAC236A725BA6D3200F5EE40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAC236AA25BA6D3200F5EE40 /* MenuBarTODO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MenuBarTODO.xcdatamodel; sourceTree = "<group>"; };
+		DAC236AC25BA6D3200F5EE40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAC236AF25BA6D3200F5EE40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAC236B225BA6D3200F5EE40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAC236B425BA6D3200F5EE40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC236B525BA6D3200F5EE40 /* MenuBarTODO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MenuBarTODO.entitlements; sourceTree = "<group>"; };
+		DAC236BE25BA716D00F5EE40 /* StorageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageHelper.swift; sourceTree = "<group>"; };
+		DAC236C225BA71C500F5EE40 /* TODOItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "TODOItem+CoreDataClass.swift"; path = "MenuBarTODO/TODOItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DAC236C325BA71C500F5EE40 /* TODOItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "TODOItem+CoreDataProperties.swift"; path = "MenuBarTODO/TODOItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DAD42B8925BA867C00066278 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DAD42B9225BA87D300066278 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		DAD42B9C25BA8A0700066278 /* demoImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demoImage.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAC2369F25BA6D3200F5EE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAC2369925BA6D3200F5EE40 = {
+			isa = PBXGroup;
+			children = (
+				DAD42B9C25BA8A0700066278 /* demoImage.png */,
+				DAD42B8925BA867C00066278 /* README.md */,
+				DAD42B9225BA87D300066278 /* LICENSE.md */,
+				DAC236C225BA71C500F5EE40 /* TODOItem+CoreDataClass.swift */,
+				DAC236C325BA71C500F5EE40 /* TODOItem+CoreDataProperties.swift */,
+				DAC236A425BA6D3200F5EE40 /* MenuBarTODO */,
+				DAC236A325BA6D3200F5EE40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAC236A325BA6D3200F5EE40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAC236A225BA6D3200F5EE40 /* MenuBarTODO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAC236A425BA6D3200F5EE40 /* MenuBarTODO */ = {
+			isa = PBXGroup;
+			children = (
+				DAC236BE25BA716D00F5EE40 /* StorageHelper.swift */,
+				DAC236A525BA6D3200F5EE40 /* AppDelegate.swift */,
+				DAC236A725BA6D3200F5EE40 /* ContentView.swift */,
+				DAC236AC25BA6D3200F5EE40 /* Assets.xcassets */,
+				DAC236B125BA6D3200F5EE40 /* Main.storyboard */,
+				DAC236B425BA6D3200F5EE40 /* Info.plist */,
+				DAC236B525BA6D3200F5EE40 /* MenuBarTODO.entitlements */,
+				DAC236A925BA6D3200F5EE40 /* MenuBarTODO.xcdatamodeld */,
+				DAC236AE25BA6D3200F5EE40 /* Preview Content */,
+			);
+			path = MenuBarTODO;
+			sourceTree = "<group>";
+		};
+		DAC236AE25BA6D3200F5EE40 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DAC236AF25BA6D3200F5EE40 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAC236A125BA6D3200F5EE40 /* MenuBarTODO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC236B825BA6D3200F5EE40 /* Build configuration list for PBXNativeTarget "MenuBarTODO" */;
+			buildPhases = (
+				DAC2369E25BA6D3200F5EE40 /* Sources */,
+				DAC2369F25BA6D3200F5EE40 /* Frameworks */,
+				DAC236A025BA6D3200F5EE40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MenuBarTODO;
+			productName = MenuBarTODO;
+			productReference = DAC236A225BA6D3200F5EE40 /* MenuBarTODO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAC2369A25BA6D3200F5EE40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					DAC236A125BA6D3200F5EE40 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = DAC2369D25BA6D3200F5EE40 /* Build configuration list for PBXProject "MenuBarTODO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAC2369925BA6D3200F5EE40;
+			productRefGroup = DAC236A325BA6D3200F5EE40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAC236A125BA6D3200F5EE40 /* MenuBarTODO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAC236A025BA6D3200F5EE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD42B9D25BA8A0700066278 /* demoImage.png in Resources */,
+				DAC236B325BA6D3200F5EE40 /* Main.storyboard in Resources */,
+				DAC236B025BA6D3200F5EE40 /* Preview Assets.xcassets in Resources */,
+				DAC236AD25BA6D3200F5EE40 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAC2369E25BA6D3200F5EE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC236A825BA6D3200F5EE40 /* ContentView.swift in Sources */,
+				DAC236C425BA71C500F5EE40 /* TODOItem+CoreDataClass.swift in Sources */,
+				DAC236C525BA71C500F5EE40 /* TODOItem+CoreDataProperties.swift in Sources */,
+				DAC236AB25BA6D3200F5EE40 /* MenuBarTODO.xcdatamodeld in Sources */,
+				DAC236A625BA6D3200F5EE40 /* AppDelegate.swift in Sources */,
+				DAC236BF25BA716D00F5EE40 /* StorageHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAC236B125BA6D3200F5EE40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC236B225BA6D3200F5EE40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAC236B625BA6D3200F5EE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAC236B725BA6D3200F5EE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DAC236B925BA6D3200F5EE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MenuBarTODO/MenuBarTODO.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MenuBarTODO/Preview Content\"";
+				DEVELOPMENT_TEAM = 9LFMJA3SC2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MenuBarTODO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShunzheMa.MenuBarTODO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DAC236BA25BA6D3200F5EE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MenuBarTODO/MenuBarTODO.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MenuBarTODO/Preview Content\"";
+				DEVELOPMENT_TEAM = 9LFMJA3SC2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MenuBarTODO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShunzheMa.MenuBarTODO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAC2369D25BA6D3200F5EE40 /* Build configuration list for PBXProject "MenuBarTODO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC236B625BA6D3200F5EE40 /* Debug */,
+				DAC236B725BA6D3200F5EE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC236B825BA6D3200F5EE40 /* Build configuration list for PBXNativeTarget "MenuBarTODO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC236B925BA6D3200F5EE40 /* Debug */,
+				DAC236BA25BA6D3200F5EE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DAC236A925BA6D3200F5EE40 /* MenuBarTODO.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DAC236AA25BA6D3200F5EE40 /* MenuBarTODO.xcdatamodel */,
+			);
+			currentVersion = DAC236AA25BA6D3200F5EE40 /* MenuBarTODO.xcdatamodel */;
+			path = MenuBarTODO.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DAC2369A25BA6D3200F5EE40 /* Project object */;
+}

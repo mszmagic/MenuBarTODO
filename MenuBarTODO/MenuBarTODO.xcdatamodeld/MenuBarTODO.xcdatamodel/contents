@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="TODOItem" representedClassName="TODOItem" syncable="YES">
+        <attribute name="addedDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="itemContent" optional="YES" attributeType="String"/>
+        <attribute name="itemID" optional="YES" attributeType="String"/>
+        <attribute name="itemIsCompleted" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="TODOItem" positionX="-63" positionY="-18" width="128" height="89"/>
+    </elements>
+</model>
