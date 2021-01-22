@@ -18,7 +18,7 @@ This repository is licensed using GPL-3.0 License. You cannot publish this code 
 
 ## Note
 
-`resource fork, Finder information, or similar detritus not allowed` エラーメッセージが表示された場合: `cd <Githubリポジトリのディレクトリ>/MenuBarTODO` `xattr -cr .` (https://stackoverflow.com/a/39667628)
+`resource fork, Finder information, or similar detritus not allowed` エラーメッセージが表示された場合: `cd <Githubリポジトリのディレクトリ>` `xattr -cr .` (https://stackoverflow.com/a/39667628)
 
 ---
 
