@@ -15,3 +15,7 @@
 このリポジトリは、GPL-3.0 Licenseを使用して認可されています。このコードは、個人的利用を目的としたものですので、このコード（またはこのコードの改変版）をApp Storeに公開することはできません。
 
 This repository is licensed using GPL-3.0 License. You cannot publish this code (or a modified version of this code) to the App Store. This code is for personal usage.
+
+## Note
+
+`resource fork, Finder information, or similar detritus not allowed` エラーメッセージが表示された場合: `xattr -cr .` (https://stackoverflow.com/a/39667628)
