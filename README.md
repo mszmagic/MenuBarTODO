@@ -19,3 +19,8 @@ This repository is licensed using GPL-3.0 License. You cannot publish this code 
 ## Note
 
 `resource fork, Finder information, or similar detritus not allowed` エラーメッセージが表示された場合: `cd <Githubリポジトリのディレクトリ>/MenuBarTODO` `xattr -cr .` (https://stackoverflow.com/a/39667628)
+
+---
+
+:sparkles: 私が公開したすべてのQiitaプログラミング記事を読むのに使えるApp Clipを作成しました。お持ちのiPhoneからこのコードをスキャンして閲覧できます。
+<img width="150" src="https://cdn.mszmagic.com/static-web-content/AppClipImage_small.png">
