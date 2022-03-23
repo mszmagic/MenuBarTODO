@@ -10,6 +10,12 @@
 
 (This is a Mac OS application that allows you to manage your TODO task list on the system bar. You can click the system bar to add a new TODO item, and view a list of saved TODO items. Items are stored in Core Data.)
 
+## Installation
+
+You can directly build this project with Github.
+
+You can also download and install this app via App Store: https://apps.apple.com/jp/app/menubartodo/id1550343840?mt=12
+
 ## License
 
 このリポジトリは、GPL-3.0 Licenseを使用して認可されています。このコードは、個人的利用を目的としたものですので、このコード（またはこのコードの改変版）をApp Storeに公開することはできません。
